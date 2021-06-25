@@ -8,3 +8,9 @@ docker run --rm -t -v $(pwd)/data:/data:ro tufin/oasdiff -format text -base /dat
 
 docker run --rm -t -v $(pwd)/data:/data:ro tufin/oasdiff -format html -base /data/pet-store-v1.0.0.yaml -revision /data/pet-store-v1.0.1.yaml
 
+## pesquisa
+api compare response with specification
+
+https://github.com/OpenAPITools/openapi-diff
+
+https://medium.com/condorlabs-engineering/automating-api-documentation-c8f48f2bc30e
